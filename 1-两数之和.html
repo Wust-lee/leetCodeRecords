@@ -10,6 +10,10 @@
 
 <body>
     <script>
+        /*
+        核心在于用map.has()判断是否存在该值
+        再用map.get()获得其索引    
+        */
         var twoSum = function (nums, target) {
             const map = new Map();
             for (let i = 0; i < nums.length; i++) {
